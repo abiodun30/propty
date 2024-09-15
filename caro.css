@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.lan{
+    margin-top: 150px;
+}
+.crea1{
+    margin: 5px;
+    padding-inline: 25px;
+    padding-block: 10px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+
+.change-bg {
+    background-color:  #0d6efd;
+}
+.crea{
+    margin: 5px;
+    padding-inline: 28px;
+    padding-block: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.crea2{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: 0px;
+    border-color: white;
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: medium;
+    border: none;
+}
+.stream{
+    color: white;
+}
+.stream h3 {
+    font-family: Inter;
+    font-size: 58.36px;
+    font-weight: 400;
+    line-height: 63px;
+    margin-top: 70px;
+}
+.stream p {
+    font-family: Inter;
+    font-size: 17.58px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.strea{
+    margin-block: 30px;
+}
+.feat{
+    background-color: white;
+    padding-top: 100px;
+}
+.fea{
+    /* line-height: 18px; */
+    margin-block: 50px;
+}
+.card{
+    margin-bottom: 50px;
+    border: none;
+    font-size: small;
+    background-color:#F5FAFE;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card h2{
+    font-size: medium;
+    line-height: 20px;
+}
+.wor{
+    margin-top: 150px;
+}
+.cre{
+    background: linear-gradient(to right,#E1EBF5 50%, #F5FAFE 50% );
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 10px;
+    font-size: small;
+    margin-block: 20px;
+}
+.cre1 {
+    font-size: small;
+}
+.enh{
+    margin-top: 50px;
+    font-size: small;
+}
+.enha{
+    margin-block: 50px;
+    font-size: small;
+}
+.try{
+    padding-top: 100px;
+}
+.crea0{
+    margin: 5px;
+    padding-inline: 25px;
+    padding-block: 10px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.how{
+    margin-top: 150px;
+}
+.ben{
+    margin-top: 50px;
+}
+.ico{
+    margin-top: 30px;
+}
+.mag1{
+    display: none;
+}
+.chi1{
+    display: none;
+}
+.control {
+    width: 100px !important;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.active-control{
+    width: 100px !important;
+    margin-top: 50px;
+}
+.arr{
+    margin-top: 50px;
+}
+.lef{
+    background-color: #FFFFFF66;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.ima{
+    margin-top: 50px;
+}
+.right{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.ima1{
+    display: none;
+}
+footer{
+    background-color: #FFFDED;
+    padding-bottom: 50px;
+}
+.cur, .whet{
+    width: 600px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 900px) {
+    .mag{
+       display: none;
+    }
+    .mag1{
+        display: inline;
+    }
+    .chi{
+        display: none;
+    }
+    .chi1{
+        display: inline;
+    }
+    .ima{
+        display: none;
+    }
+    .ima1{
+        display: inline;
+    }
+    .lef{
+        display: none;
+    }
+    .right{
+        display: none;  
+    }
+    .lan{
+        margin-bottom: 100px;
+    }
+    .cur, .whet{
+        width: 100%;
+    }
+}
